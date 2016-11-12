@@ -108,12 +108,12 @@ public class frmOperaciones extends javax.swing.JFrame {
         // TODO add your handling code here:
         int numA = Integer.parseInt(txtNumeroA.getText());
         int numB = Integer.parseInt(txtNumeroB.getText());
-        JOptionPane.showMessageDialog(this,"La suma es: "+ (numA+numB));
+        JOptionPane.showMessageDialog(this,"La suma de A+B es: "+ (numA+numB));
     }//GEN-LAST:event_btnSumarActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
         // TODO add your handling code here:
-       System.exit(WIDTH);
+       System.exit(0);
     }//GEN-LAST:event_btnSalirActionPerformed
 
     /**
